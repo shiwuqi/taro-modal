@@ -130,13 +130,9 @@ const Modal = React.forwardRef((props, ref) => {
   )
 })
 Modal.defaultProps = {
-  events: null,
-  id: 'at-modal',
   title: false, // 标题
   visible: false, // 是否显示
   className: '', // modal-body的类名
-  onCancel: () => {}, // 点击取消时执行的函数
-  onOk: () => {}, // 点击确定是执行的函数
   okText: '确定', // 确定按钮文字
   cancelText: '取消', // 取消按钮文字
   maskClosable: true, // 点击蒙层是否关闭
@@ -157,6 +153,8 @@ Modal.defaultProps = {
   onError: () => {},
   onOpenSetting: () => {},
   onLaunchapp: () => {},
+  onCancel: () => {}, // 点击取消时执行的函数
+  onOk: () => {}, // 点击确定是执行的函数
 };
 Modal.propTypes = {
   visible: PropTypes.bool.isRequired,

@@ -26,3 +26,33 @@
     <Modal ref={modal} />
   </View>
 ```
+
+
+### 属性
+title: false, // 标题
+visible: false, // 是否显示
+className: '', // modal-body的类名
+okText: '确定', // 确定按钮文字
+cancelText: '取消', // 取消按钮文字
+maskClosable: true, // 点击蒙层是否关闭
+maskClass: '', // 蒙层类名
+showCancel: true, // 是否显示取消按钮
+autoClosable: false, // 点击确定后是否自动关闭
+lang: 'zh_CN', // 剩下属性请查看 http://taro-docs.jd.com/taro/docs/components/forms/button
+openType: '',
+sessionFrom: '',
+sendMessageTitle: '', 
+sendMessagePath: '',
+sendMessageImg: '',
+appParameter: '',
+showMessageCard: false,
+
+### 函数
+onGetUserInfo: () => {},
+onContact: () => {},
+onGetPhoneNumber: () => {},
+onError: () => {},
+onOpenSetting: () => {},
+onLaunchapp: () => {},
+onCancel: () => {}, // 点击取消时执行的函数
+onOk: () => {}, // 点击确定是执行的函数
