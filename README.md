@@ -37,7 +37,7 @@ cancelText: '取消', // 取消按钮文字
 maskClosable: true, // 点击蒙层是否关闭  
 maskClass: '', // 蒙层类名  
 showCancel: true, // 是否显示取消按钮  
-autoClosable: false, // 点击确定后是否自动关闭  
+autoClosable: false, // 点击确定取消后是否自动关闭  
 lang: 'zh_CN', // 剩下属性请查看 [http://taro-docs.jd.com/taro/docs/components/forms/button](http://taro-docs.jd.com/taro/docs/components/forms/button)  
 openType: '',  
 sessionFrom: '',  
