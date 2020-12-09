@@ -1,0 +1,41 @@
+{
+  "name": "taro-modal",
+  "version": "1.0.2",
+  "description": "taro3.x的modal组件",
+  "main": "lib/index.js",
+  "module": "src/index.jsx",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feitingjun/taro-modal.git"
+  },
+  "keywords": [
+    "taro",
+    "modal"
+  ],
+  "peerDependencies": {
+    "@tarojs/components": ">=3.0.0-beta.4",
+    "@tarojs/react": ">=3.0.0-beta.4",
+    "react": ">=16.13.0",
+    "react-dom": ">=16.13.0"
+  },
+  "author": "feitingjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feitingjun/taro-modal/issues"
+  },
+  "homepage": "https://github.com/feitingjun/taro-modal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
+  }
+}
